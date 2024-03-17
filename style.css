@@ -19,7 +19,7 @@ h1 {
     font-size: 3.5rem;
     font-weight: bolder;
     color: var(--main-color);
-    margin: 0;
+    margin: -100px 0 0;
     padding-bottom: 16px;
 }
 
@@ -169,14 +169,35 @@ a {
 .list li {
     color: var(--footer-text-color);
     padding-right: 20px;
+    text-decoration: underline;
 }
 
 .footer-link {
     color: var(--footer-text-color);
 }
 
+.more-languages {
+    color: #585858;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 17px;
+    padding: 0 8px;
+    border: var(--border);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.more-languages:hover {
+    background-color: var(--background);
+}
+
 .languages-list {
     padding-top: 8px;
+}
+
+.languages-list li {
+    padding-right: 8px;
 }
 
 .copyright {
